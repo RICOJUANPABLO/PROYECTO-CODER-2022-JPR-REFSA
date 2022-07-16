@@ -1,0 +1,227 @@
+@import "_variables.scss";
+
+
+/* Normalize */
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------BODY------------- */
+
+body{
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* ----------HEADER---------- */
+
+.mini__banner{
+    width: 100%;
+    height: 2rem;
+    background: rgb(213, 213, 248);
+    background-color: $minibanner-color;
+
+}
+
+.mini_banner--ajustes{
+    color: $title-color;
+    font-size: $fontsize-xsmall;
+    text-align: right;
+    text-decoration: solid 600px;
+    padding-top: 10px;
+}
+
+
+.navbar__superior{
+    height: 7vh;
+    margin-bottom: $spacing-xsmall;
+    background-image: $gradient;
+    font-size: $fontsize-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.navbar__superior a{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.navbar__superior a:hover{
+    border-bottom: 2.5px solid $minibanner-color;
+}
+
+.active{
+    border-bottom: 2.5px solid $minibanner-color;    
+}
+
+/* ----------------------------MAIN------------------------ */
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    background-color: $backgroundcolor;
+    background-image: url(../img/BACKGROUND.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title__index{
+    padding: $spacing-large;
+    font-size: $fontsize-large;
+    color: $title-color;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.title__index--sub{
+    padding: 0 6rem;
+    font-size: 1.8em;
+
+}
+
+/* -----------FOOTER---------- */
+
+.footer{
+   background-color: rgb(238, 242, 249); 
+   color: rgb(0, 0, 0);
+   padding: 1rem
+}
+
+.footerFlex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footerMenuTitle{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footerNav{
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footerNav a{
+    color:black;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.footerAdress{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);  
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.footerCredit{
+    font-size: 0.6rem;
+    text-align: left;
+}
+/* -------------------------------------------URGENCIAS.HTML----------------------------------- */
+/* --main-- */
+
+.urg__title{
+    padding: $spacing-large;
+    font-size: $fontsize-large;
+    color: $title-color;
+    text-shadow: 1px 1px 3px #000000;
+    text-align: center;
+}
+
+.urg__title2{
+    padding: $spacing-large;
+    background-image: url(/img/BCK-URG.jpg);
+    background-size: cover;
+    border: solid black;
+    border-radius: 0.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: $fontsize-medium;
+    text-align: left;
+
+}
+
+/* -------------------------------------------SOBRE NOSOTROS--------------------------------- */
+
+.carrousel_text{
+    font-size: $fontsize-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $title-color;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+
+.flex__main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carrousel__fix{
+    width: 800%;
+
+}
+
+.carrousel__p{
+    padding: $spacing-small;
+    margin-left: $spacing-small;
+    background: rgb(255,255,255);
+    background: $gradient3;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: $fontsize-small;
+    font-style: italic;
+    font-weight: 600;
+
+}
+/* -------------------------------------------------PRODUCTOS------------------------------------------- */
+
+.container__productos{
+    width: 100%;
+    height: 100vh;
+}
+.grid__productos{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: stretch;
+}
+
+
+.prod__title2{
+    margin: $spacing-small;
+    background-image: url(../img/BCK-URG.jpg);
+    background-size: 100%;
+    border: solid black;
+    border-radius: 0.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: $fontsize-medium;
+    text-align: left;
+}
+
+.title__prod{
+    width: 400px;
+    height: 150px;
+    margin: 0 2rem;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: black;
+    background: $gradient3;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
