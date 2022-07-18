@@ -198,14 +198,14 @@ main{
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
-    align-items: stretch;
+    align-items: center;
 }
 
 
 .prod__title2{
     margin: $spacing-small;
     background-image: url(../img/BCK-URG.jpg);
-    background-size: 100%;
+    background-size: cover;
     border: solid black;
     border-radius: 0.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
