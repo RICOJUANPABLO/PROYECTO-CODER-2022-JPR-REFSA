@@ -189,9 +189,10 @@ main {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem; }
 
+/* -------------------------------------------------CONTACTO------------------------------------------- */
 /* ---------------MOBILE QUERY---------------- */
 @media (min-width: 320px) and (max-width: 576px) {
-  /* -------INDEX-------- */
+  /* -------INDEX MOBILE-------- */
   .title__index {
     padding: 1rem;
     font-size: 3rem;
@@ -206,4 +207,12 @@ main {
     align-items: center;
     flex-direction: column; }
   .bckg__color {
-    background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.812763) 63%, rgba(255, 255, 255, 0) 100%); } }
+    background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.812763) 63%, rgba(255, 255, 255, 0) 100%); }
+  /* -----URGENCIAS MOBILE------ */
+  .urg__title {
+    padding: 1rem 1rem 6rem 1rem;
+    font-size: 3rem;
+    color: #f3f3f3;
+    text-shadow: 1px 1px 3px #000000; }
+  .urg__title2 {
+    padding: 2rem 0.5rem; } }
