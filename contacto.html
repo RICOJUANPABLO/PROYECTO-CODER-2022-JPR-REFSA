@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- CSS PROPIO -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>PROYECTO CODER - JPR</title>
+    <title>Contacto</title>
 </head>
 <body>
     <!-- Header -->
@@ -55,52 +55,31 @@
     <!-- Main -->
     <main>
         <!-- Menú de formulario -->
-        <h2>Contactános</h2>
-        <form action="">
-            <fieldset>
-                <legend>Ingresá tus datos</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>
-                <br> <!-- El br sólo momentáneamente hasta que lo podamos dividir utilizando CSS -->
-                <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>
-                <br>
-                <br>
-                <label for="correo">Mail</label>
-                <input type="text" name="correo" id="correo" placeholder="Ingresá tu mail" required>
-                <br>
-                <br>
-                <label for="numero">Número</label>
-                <input type="number" name="numero" id="numero" placeholder="Ingresá tu número" required>
-                <br>
-                <br>
-                <label for="motivo">Motivo</label>
-                <select name="motivo" id="motivo">
-                    <option value="">Seleccioná tu motivo de contacto</option>
-                    <option value="compras">Compras</option>
-                    <option value="urgencias">Urgencias</option>
-                    <option value="otra">Otra consulta</option>
-                </select>
-                <br>
-                <br>
-                <label for="comentario">Comentario</label>
-                <br>
-                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingresá tu comentario" maxlength="240"></textarea>
-                <br>
-                <br>
-                <input type="checkbox"  name="cbox1"> ¿Desea recibir nuestro newsletter?
-                <br>
-                <br>
-                <input type="submit">
-                <input type="reset" value="Limpiar">
-                
-
-                
-            </fieldset>
-
-            
-        </form>
+        <div class="container">
+        <h2 class="title__index">Contactános</h2>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Motivo de consulta</option>
+          <option value="1">Compras</option>
+          <option value="2">Urgencias</option>
+          <option value="3">Otras consultas</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentario"></textarea>
+        </div>
+      </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
