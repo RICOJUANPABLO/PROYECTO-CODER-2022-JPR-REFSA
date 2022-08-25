@@ -252,15 +252,15 @@ main {
 
 /* --------------TABLET QUERY-------------- */
 @media (min-width: 577px) and (max-width: 991px) {
-  /* -------INDEX MOBILE-------- */
+  /* -------INDEX TABLET-------- */
   .title__index {
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #f3f3f3;
     text-shadow: 1px 1px 3px #000000; }
   .title__index--sub {
     padding: 4rem 1.3rem;
-    font-size: 1.3rem; }
+    font-size: 1.8rem; }
   .footerFlex {
     display: flex;
     justify-content: center;
@@ -268,7 +268,7 @@ main {
     flex-direction: column; }
   .bckg__color {
     background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.812763) 63%, rgba(255, 255, 255, 0) 100%); }
-  /* -----URGENCIAS MOBILE------ */
+  /* -----URGENCIAS TABLET------ */
   .urg__title {
     padding: 1rem 1rem 6rem 1rem;
     font-size: 3rem;
@@ -277,17 +277,11 @@ main {
   .urg__title2 {
     padding: 2rem 0.5rem; }
   /* ---------PRODUCTOS MOBILE-------- */
-  .image__4 {
+  .image__1 {
     display: none; }
-  .image__5 {
+  .image__2 {
     display: none; }
-  .image__6 {
-    display: none; }
-  .image__7 {
-    display: none; }
-  .image__8 {
-    display: none; }
-  .image__9 {
+  .image__3 {
     display: none; }
   .grid__productos {
     display: flex;
