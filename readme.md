@@ -11,3 +11,4 @@
 <p>Se mejoraron las vistas mobile y rellenado del site para que sea más atractivo a la vista<p>
 <p>Se utilizó un selector de paletas de colores para realizar según la idea del proyecto, la cual se encuentra orientada a un sector medicinal, una correcta gama de colorización en cuanto a la estructura final</p>
 <p>Perfeccionamiento de vistas para tablets</p>
+<p>¡Gracias!</p>
