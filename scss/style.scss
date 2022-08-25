@@ -313,5 +313,93 @@ flex-direction: column-reverse;
     width: 100%;
 
 }
+}
+/* --------------TABLET QUERY-------------- */
+@media (min-width: 577px) and (max-width: 991px){
+ /* -------INDEX MOBILE-------- */
+ .title__index {
+    padding: 1rem;
+    font-size: 3rem;
+    color: #f3f3f3;
+    text-shadow: 1px 1px 3px #000000;
+}
+.title__index--sub {
+    padding: 4rem 1.3rem;
+    font-size: 1.3rem;
+}
+.footerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bckg__color {
+    background: $gradient3;
+}
+/* -----URGENCIAS MOBILE------ */
+.urg__title {
+padding: 1rem 1rem 6rem 1rem;
+font-size: 3rem;
+color: #f3f3f3;
+text-shadow: 1px 1px 3px #000000;
+}
+.urg__title2 {
+    padding: 2rem 0.5rem;
+}
+
+
+/* ---------PRODUCTOS MOBILE-------- */
+
+.image__4{
+display: none;
+}
+.image__5{
+display: none;
+}
+.image__6{
+display: none;
+}
+.image__7{
+display: none;
+}
+.image__8{
+display: none;
+}
+.image__9{
+display: none;
+}
+
+.grid__productos{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+}
+
+/* ---------NOSOTROS MOBILE-------- */
+.flex__main {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column-reverse;
+}
+
+.carrousel__p{
+align-items: left;
+padding: $spacing-small;
+margin-left: 0;
+background: rgb(255,255,255);
+background: $gradient3;
+border-top-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: $fontsize-xsmall;
+font-style: italic;
+font-weight: 600;
+
+}
+.carrousel__fix{
+width: 100%;
+
+}
 
 }
